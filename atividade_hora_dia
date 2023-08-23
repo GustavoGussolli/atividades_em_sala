@@ -1,0 +1,16 @@
+programa
+{
+	inclua biblioteca Calendario
+ --> c
+	
+	funcao inicio()
+	{
+		inteiro M = c.mes_atual()
+		inteiro D = c.dia_mes_atual()
+		inteiro A = c.ano_atual()
+		inteiro H = c.hora_atual(falso)
+		inteiro MI = c.minuto_atual()
+
+		escreva( H , ":" , MI ,"\n", D , "/", M , "/", A )
+	}
+}
