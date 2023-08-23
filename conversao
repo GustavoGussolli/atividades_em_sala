@@ -1,0 +1,19 @@
+programa
+{
+	
+		inteiro valor 
+	
+	funcao inicio()
+	{
+		escreva("Informe o valor para converter em dolar: ")
+		leia(valor)
+		limpa()
+
+		converter()
+	}
+
+	funcao converter(){
+
+		escreva(valor * 4.85)
+	}
+}
